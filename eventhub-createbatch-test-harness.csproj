@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>eventhub_createbatch_test_harness</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Core" Version="1.21.0" />
+    <PackageReference Include="Azure.Messaging.EventHubs" Version="5.7.0-beta.1" />
+    <PackageReference Include="Azure.Messaging.EventHubs.Processor" Version="5.7.0-beta.1" />
+    <PackageReference Include="Bogus" Version="33.1.1" />
+    <PackageReference Include="Microsoft.Azure.KeyVault" Version="3.0.5" />
+    <PackageReference Include="Microsoft.Azure.Services.AppAuthentication" Version="1.6.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
